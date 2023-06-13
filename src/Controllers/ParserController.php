@@ -18,10 +18,7 @@ class ParserController extends BaseController
     public function index($request){
         $template = $this->twig->load('./hello.twig');
         $data = $this->parser->execute($request);
-
         echo $template->render(['data' => $data]);
-
-        return;
     }
 
 }
