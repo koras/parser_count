@@ -1,0 +1,17 @@
+{
+    "name": "test/project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "koras"
+        }
+    ],
+    "require": {
+        "psr/container": "^1.0",
+        "twig/twig": "^2.0"
+    }
+}
